@@ -157,13 +157,13 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 15px;
+    margin: 4px 10px;
     cursor: pointer;
     border-radius: 5px;
 }
 #hesab{
 
-    width: 187px;
+    width: 200px;
 }
 #body{
 
@@ -231,4 +231,4 @@ p{
     border:2px solid black;
 
 }
-   //new
+   
