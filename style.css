@@ -135,7 +135,7 @@ p{
 
 header{
     height: 30px;
-    width:50%;
+    width:30%;
 
     margin: 50px;
     margin-left: 170px;
@@ -144,7 +144,7 @@ header{
 }
 html,body{
     height: 60%;
-    width: 50%;
+    width: 30%;
     background: #d7ecfd;
     }
 
