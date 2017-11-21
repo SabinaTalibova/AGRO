@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two'); 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+*{
+   padding: 0;
+   margin: 0;
+   border:0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #d3d3d3;
+    }
+
+
+
+
+
+
+
+
+
+header{
+    height: 98px;
+    width:100%;
+
+    margin: 50px;
+    margin-left: 570px;
+
+    
+}
+
+.button  {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 29px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#hesab{
+
+    width: 400px;
+}
+#body{
+
+    margin-left: 200px;
+
+
+}
+.link{
+    text-decoration: none;
+    color:#fff;
+}
+
+.i{
+    margin-left:40px;
+
+
+}
+#hektar{
+    height: 50px;
+    width: 250px;
+    border:2px solid black;
+
+}
+
+
+
+h2{
+    font-family: 'Lobster', sans-serif;
+    font-size: 350%;
+   
+}
+
+h3{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 250%;
+    margin-left: 400px;
+    margin-top: 20px;
+
+   
+}
+p{    
+
+    font-family: 'Playfair Display', sans-serif;
+
+    padding: 20px;
+    margin-left: 40px;
+    color: #292020;
+    font-weight: 600;
+    
+
+}
+#necehektar{
+
+    margin-left:15px;
+    padding: 0;
+    margin-top: 10px;
+}
+#hansixidmet{
+    margin-left: 15px;
+    padding: 0;
+}
+#hesbut{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    *{
+   padding: 0;
+   margin: 0;
+   border:0;
+
+     }
+
+
+
+header{
+    height: 30px;
+    width:100%;
+
+    margin: 50px;
+    margin-left: 170px;
+
+    
+}
+html,body{
+    height: 60%;
+    width: 100%;
+    background: #d7ecfd;
+    }
+
+.button  {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#hesab{
+
+    width: 187px;
+}
+#body{
+
+    margin-left: 100px;
+
+
+}
+
+
+h2{
+    font-family: 'Lobster', sans-serif;
+    font-size: 250%;
+
+
+
+    
+}
+h3{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 150%;
+    margin-left: 100px;
+    margin-top: 20px;
+
+   
+}
+p{    
+
+    font-family: 'Playfair Display', sans-serif;
+
+    padding: 15px;
+    margin-left: 40px;
+    color: #292020;
+    font-weight: 600;
+    
+
+}
+
+#necehektar{
+
+    margin-left:10px;
+    padding: 0;
+    margin-top: 8px;
+}
+#hansixidmet{
+    margin-left: 10px;
+    padding: 0;
+}
+#hesbut{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 9px 130px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+#hektar{
+    height: 30px;
+    width: 100px;
+    border:2px solid black;
+
+}

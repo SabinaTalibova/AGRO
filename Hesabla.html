@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css"
+  </head>
+<body>
+
+	<h3> Məbləğin hesablanması</h3>
+  <h2>_____________________________________________________</h2>
+
+<form >
+  <p id="necehektar">Neçə hektar əraziniz var?</p><br>
+
+  <input type ="text" name="sahe" id="hektar" value=" " class="i"><br>
+  <p id="hansixidmet">Hansı xidmətlər sizə lazımdır?</p><br>
+
+  <input type="checkbox" id="bicin" class="i" > Taxıl biçinii<br>
+  <input type="checkbox" id="disklimala" class="i" > Diskli mala çəkilməsi<br>
+  <input type="checkbox" id="rotasionmala" class="i" > Rotasion mala ilə torpağın yumşaldılmasi<br>
+  <input type="checkbox" id="cergearasibecerme" class="i" > Cərgəarası becərmədə kultivasiya işləri<br>
+  <input type="checkbox" id="pambiqsepini" class="i">Çiyid (pambıq) səpini<br>
+  <input type="checkbox" id="ortashum" class="i"> Şum aparılması (orta müqavimətli torpaqda)<br>
+  <input type="checkbox" id="yumshaqshum" class="i"> Şum aparılması (dəmyə və yumşaq torpaqda)<br>
+  <input type="checkbox" id="sepinqabagi" class="i"> Səpin qabağı hamarlama işləri<br>
+  <input type="checkbox" id="qollucileyici" class="i" > Qollu çiləyici ilə dərman səpilməsi<br>
+  <input type="checkbox" id="vintlyatorlucileyici" class="i"> Ventilyatorlu çiləyici ilə dərman çilənməsi<br>
+  <input type="checkbox" id="calaqazma" class="i">Çala qama işi<br>
+  
+  <input type="checkbox" id="rotorlu" class="i">Yem bitkilərinin rotorlu otbiçənlə biçilməsi<br>
+  <input type="checkbox" id="denlitoxumsepini" class="i">Dənli bitkilər toxumunun səpini<br>
+
+  <input type="checkbox" id="mineralgubre" class="i" >Mineral gübrə verilməsi<br>
+  <input type="checkbox" id="pambiqyigini" class="i" >Pambıq yığını<br>
+  <input type="checkbox" id="cugundurcixarilmasi" class="i" >Çuğundur çıxarılması<br>
+  <input type="checkbox" id="kartofbasdirilmasi" class="i" >Kartof basdırılması<br>
+  <input type="checkbox" id="kartofcixarilmasi" class="i" >Kartof çıxarılmas<br>
+
+
+
+
+  <input type="submit" value="HESABLA" class="i" id="hesbut" onclick="hesablama(); return false;"> 
+
+</form> 
+
+<p id="mesaj"></p>
+
+
+<script type="text/javascript">
+
+	function hesablama(){
+
+        var sahe=document.getElementById("hektar").value;
+        var yekun=0;
+
+     if(document.getElementById("bicin").checked){
+        	yekun=yekun+sahe*30;
+
+     }
+     if(document.getElementById("disklimala").checked){
+        	yekun=yekun+sahe*8;
+
+     }
+     if(document.getElementById("rotasionmala").checked){
+        	yekun=yekun+sahe*16;
+
+     }
+     if(document.getElementById("cergearasibecerme").checked){
+        	yekun=yekun+sahe*10;
+
+     }
+     if(document.getElementById("pambiqsepini").checked){
+        	yekun=yekun+sahe*12;
+
+     }
+     if(document.getElementById("ortashum").checked){
+        	yekun=yekun+sahe*25;
+
+     }
+     if(document.getElementById("yumshaqshum").checked){
+        	yekun=yekun+sahe*24;
+
+     }
+     if(document.getElementById("sepinqabagi").checked){
+        	yekun=yekun+sahe*7.5;
+
+     }
+     if(document.getElementById("qollucileyici").checked){
+        	yekun=yekun+sahe*10;
+
+     }
+     if(document.getElementById("vintlyatorlucileyici").checked){
+        	yekun=yekun+sahe*12;
+
+     }
+     if(document.getElementById("calaqazma").checked){
+        	yekun=yekun+sahe*60;
+
+     }
+    
+     if(document.getElementById("rotorlu").checked){
+        	yekun=yekun+sahe*14;
+
+     }
+     if(document.getElementById("denlitoxumsepini").checked){
+        	yekun=yekun+sahe*10;
+
+     }
+     if(document.getElementById("mineralgubre").checked){
+        	yekun=yekun+sahe*8;
+
+     }
+     if(document.getElementById("pambiqyigini").checked){
+        	yekun=yekun+sahe*60;
+
+     }
+     if(document.getElementById("cugundurcixarilmasi").checked){
+        	yekun=yekun+sahe*60;
+
+     }
+
+     if(document.getElementById("kartofbasdirilmasi").checked){
+        	yekun=yekun+sahe*50;
+
+     }
+     if(document.getElementById("kartofcixarilmasi").checked){
+        	yekun=yekun+sahe*40;
+
+     }
+     
+
+
+        document.getElementById("mesaj").innerHTML='Yekun məbləğ:  '+yekun+'  AZN';
+
+		
+	}
+
+</script>
+</body>
+</html>

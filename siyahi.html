@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<h3>Xidmətlərin Siyahısı və Qiymətləri</h3>
+
+
+<script>
+
+$.getJSON("https://sc.e-gov.az/file/476", function( data ) {
+    
+
+ 
+
+ var useful=data.AGRO_SERVICES.body.AGRO_SERVICE;
+ for(var i=0;i<useful.length;i++){
+    
+    var h3 = document.createElement("P");
+    j=i+1;
+    var t = document.createTextNode(j+". "+useful[i].name+": "+useful[i].salary+" AZN");
+    h3.appendChild(t);
+    document.body.appendChild(h3);
+
+ 	//document.getElementById("xidmet").append(+" and  "+useful[i].salary+"  AZN,   ");
+
+ }
+
+    
+});
+
+
+
+</script>
+
+
+
+
+
+	
+</body>
+</html>
