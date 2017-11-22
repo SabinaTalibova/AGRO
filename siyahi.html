@@ -8,7 +8,9 @@
 </head>
 <body>
 
-<h3>Xidmetlerin Siyahısı ve Qiymetleri</h3>
+
+
+<h3 id="siyahiheader">Xidmetlerin Siyahısı ve Qiymetleri</h3>
 
 
 <script>
@@ -31,10 +33,8 @@ $.getJSON("https://sc.e-gov.az/file/476", function( data ) {
    
 
     var b=document.createElement("br");
-
-
-
-
+    h3.id="xidmetelementleri";
+    t2.id="qiymetelementi"
 
     h3.appendChild(t);
     h3.appendChild(b);
