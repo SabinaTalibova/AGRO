@@ -235,3 +235,62 @@ width: 100%;
 }
 
 
+#hesablaform{
+  padding:5px;
+}
+#necehektar{
+  margin-left: 5px;
+}
+#hektar{
+
+  margin-left: 50px;
+  
+  width: 40%;
+  font-size: 10px;
+  padding: 12px;
+  border: 2px solid black;
+
+}
+#hansixidmet{
+  margin-left: 5px;
+  width: 100%;
+  margin-top: 5px;
+
+}
+.i{
+  margin: 7px;
+ 
+}
+#hesablabutton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#myInput {
+  margin: 10px;
+  background-position: 10px 12px;
+  
+  width: 60%;
+  font-size: 10px;
+  padding: 10px 15px 10px 30px;
+  border: 2px solid black;
+  
+}
+#toxumelementleri{
+padding:10px; 
+font-size: 90%;
+border-style: solid;
+border-bottom: thin  solid black;
+width: 100%;
+
+}
