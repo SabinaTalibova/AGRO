@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two'); 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
@@ -14,124 +15,110 @@ html,body{
     width: 100%;
     background: #d3d3d3;
 
-
- 
     }
 
-
-
-
-
-
-
-
-
-
 header{
-    height: 98px;
+    height: 50px;
     width:100%;
 
-    margin: 50px;
-    margin-left: 570px;
-
-    
-}
-
-
-.button  {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 20px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-
-}
-
-#body{
-
-    margin-left: 250px;
-
-
-}
-#hesab{
-    width: 250px;
-}
-#toxum{
-    width: 250px;
-}
-.link{
-    text-decoration: none;
-    color:#fff;
-}
-
-.i{
-    margin-left:40px;
-
-
-}
-#hektar{
-    height: 50px;
-    width: 250px;
-    border:2px solid black;
-
-}
-
-
-#myInput {
-  margin: 40px;
-  background-position: 10px 12px;
-  
-  width: 80%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 3px solid black;
+   
   
 }
-
 
 
 h2{
     font-family: 'Lobster', sans-serif;
     font-size: 350%;
    
+   
 }
 
 h3{
     font-family: 'Playfair Display', sans-serif;
-    font-size: 250%;
-    margin-left: 400px;
-    margin-top: 20px;
+    font-size: 150%;
+    
 
    
 }
 p{    
 
     font-family: 'Playfair Display', sans-serif;
-
-    padding: 20px;
-    margin-left: 40px;
     color: #292020;
-    font-weight: 600;
+    
     
 
 }
-#necehektar{
 
-    margin-left:15px;
-    padding: 0;
-    margin-top: 10px;
+
+#logo{
+  
+   margin-left: 550px;
+   padding-top: 30px;
+   
+}
+.container{
+  margin-left: 250px;
+  margin-top: 250px;
+}
+.button  {
+    background-color: #4CAF50;
+    
+    padding: 20px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+
+}
+.link{
+    text-decoration: none;
+    color:#fff;
+}
+#siyahiheader{
+  margin-left: 450px;
+}
+#xidmetelementleri{
+padding:10px; 
+font-size: 150%;
+border-style: solid;
+border-bottom: thin  solid black;
+
+
+}
+#hesablaheader{
+  margin-left: 450px;
+  margin-top: 15px;
+}
+#hesablaform{
+  padding:5px;
+}
+#necehektar{
+  margin-left: 5px;
+}
+#hektar{
+
+  margin-left: 50px;
+  
+  width: 40%;
+  font-size: 10px;
+  padding: 12px;
+  border: 2px solid black;
+
 }
 #hansixidmet{
-    margin-left: 15px;
-    padding: 0;
+  margin-left: 5px;
+  width: 100%;
+  margin-top: 5px;
+
 }
-#hesbut{
+.i{
+  margin: 7px;
+ 
+}
+#hesablabutton{
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -140,127 +127,111 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 10px;
+    margin: 4px 50px;
     cursor: pointer;
     border-radius: 5px;
 }
 
-#test{
-    
+
+#myInput {
+  margin: 10px;
+  background-position: 10px 12px;
+  
+  width: 60%;
+  font-size: 10px;
+  padding: 10px 15px 10px 30px;
+  border: 2px solid black;
+  
 }
+#toxumelementleri{
+padding:10px; 
+font-size: 90%;
+border-style: solid;
+border-bottom: thin  solid black;
+width: 100%;
+
+}
+
+
+ 
+
+
+       
+
+    
+
+
+
 @media screen and (max-width: 768px){
     *{
    padding: 0;
    margin: 0;
    border:0;
 
-     }
-
-
-
-header{
-    height: 30px;
-    width:30%;
-
-    margin-left: 90px;
-    
-
-    
-}
-html,body{
-    height: 60%;
-    width: 30%;
-    background: #d7ecfd;
-    }
-
-.button  {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-#hesab{
-
-    width: 200px;
 }
 
-#toxum{
-    width: 200px;
-}
-#xidmet{
-    width: 200px;
-}
-#body{
-
-    margin-left: 30px;
-
-
-}
 
 
 h2{
     font-family: 'Lobster', sans-serif;
-    font-size: 200%;
-
-
-
-    
+    font-size: 150%;
+   
 }
+
 h3{
     font-family: 'Playfair Display', sans-serif;
-    font-size: 150%;
-    margin-left: 100px;
-    margin-top: 20px;
+    font-size: 100%;
+    
 
    
 }
 p{    
 
     font-family: 'Playfair Display', sans-serif;
-
-    padding: 15px;
-    margin-left: 40px;
     color: #292020;
-    font-weight: 600;
-    
 
 }
 
-#necehektar{
-
-    margin-left:10px;
-    padding: 0;
-    margin-top: 8px;
-}
-#hansixidmet{
-    margin-left: 10px;
-    padding: 0;
-}
-#hesbut{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 7px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 9px 130px;
-    cursor: pointer;
-    border-radius: 5px;
-
-
-#hektar{
-    height: 30px;
-    width: 100px;
-    border:2px solid black;
-
-}
+#logo{
+  
+   padding-top: 30px;
+   margin-left: 100px;
    
+}
+
+.container{
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.button  {
+    background-color: #4CAF50;
+    
+    padding: 20px 15px;
+   
+    font-size: 15px;
+   
+   
+
+}
+#siyahiheader{
+  margin-left: 10px;
+  width: 100%;
+  font-weight: 600;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+#xidmetelementleri{
+padding:10px; 
+font-size: 90%;
+border-style: solid;
+border-bottom: thin  solid black;
+width: 100%;
+
+
+}
+#hesablaheader{
+  margin-left: 60px;   
+  margin-top: 15px;
+}
+
+
