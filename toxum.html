@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+
+
+
+
+<script>
+
+$.getJSON("https://sc.e-gov.az/file/484", function( data ) {
+    
+
+ 
+
+ var useful=data.SEED_SELLERS.body.SEED_SELLER;
+ for(var i=0;i<useful.length;i++){
+    
+    var h3 = document.createElement("P");
+    
+    j=i+1;
+    var rayon = document.createTextNode(j+". "+"Rayon: "+ useful[i].rayon);
+    
+
+    var ad = document.createTextNode("Saticinin adi: "+useful[i].name);
+    var bitki = document.createTextNode("Bitkinin adi: "+useful[i].bitki);
+    var sort = document.createTextNode("Bitkinin sortu: "+useful[i].sort);
+    var nomre = document.createTextNode("Saticinin elaqe nomresi: "+useful[i].number);
+
+    h3.id='test'
+
+    var b=document.createElement("br");
+
+    h3.appendChild(rayon);
+    h3.appendChild(b);
+    h3.appendChild(ad);
+    h3.appendChild(b.cloneNode())
+    h3.append(bitki)
+    h3.appendChild(b.cloneNode())
+    h3.appendChild(sort)
+    h3.appendChild(b.cloneNode())
+    h3.appendChild(nomre)
+
+
+    document.body.appendChild(h3);
+
+ 	//document.getElementById("xidmet").append(+" and  "+useful[i].salary+"  AZN,   ");
+
+ }
+
+    
+});
+
+
+
+
+
+</script>
+
+
+
+
+<ul id="myUL">
+  <li>Adele</li>
+  <li>Agnes</li>
+
+  <li>Billy</li>
+  <li>Bob</li>
+
+  <li>Calvin</li>
+  <li>Christina</li>
+  <li>Cindy</li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    
+    li = document.getElementsByTagName("P");
+    for (i = 0; i < li.length; i++) {
+        a = li[i];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+
+
+
+	
+</body>
+</html>

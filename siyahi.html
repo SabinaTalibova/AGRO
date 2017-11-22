@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h3>Xidmətlərin Siyahısı və Qiymətləri</h3>
+<h3>Xidmetlerin Siyahısı ve Qiymetleri</h3>
 
 
 <script>
@@ -23,8 +23,24 @@ $.getJSON("https://sc.e-gov.az/file/476", function( data ) {
     
     var h3 = document.createElement("P");
     j=i+1;
-    var t = document.createTextNode(j+". "+useful[i].name+": "+useful[i].salary+" AZN");
+    var t = document.createTextNode(j+". "+useful[i].name);
+    
+
+    var t2 = document.createTextNode("Qiymet   :"+useful[i].salary+"AZN");
+
+   
+
+    var b=document.createElement("br");
+
+
+
+
+
     h3.appendChild(t);
+    h3.appendChild(b);
+    h3.appendChild(t2);
+
+
     document.body.appendChild(h3);
 
  	//document.getElementById("xidmet").append(+" and  "+useful[i].salary+"  AZN,   ");
