@@ -13,7 +13,11 @@ html,body{
     height: 100%;
     width: 100%;
     background: #d3d3d3;
+
+
+ 
     }
+
 
 
 
@@ -33,28 +37,33 @@ header{
     
 }
 
+
 .button  {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 25px 32px;
+    padding: 20px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
-    margin: 4px 29px;
+    font-size: 20px;
+    margin: 4px 20px;
     cursor: pointer;
     border-radius: 5px;
-}
-#hesab{
 
-    width: 400px;
 }
+
 #body{
 
-    margin-left: 200px;
+    margin-left: 250px;
 
 
+}
+#hesab{
+    width: 250px;
+}
+#toxum{
+    width: 250px;
 }
 .link{
     text-decoration: none;
@@ -71,6 +80,18 @@ header{
     width: 250px;
     border:2px solid black;
 
+}
+
+
+#myInput {
+  margin: 40px;
+  background-position: 10px 12px;
+  
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 3px solid black;
+  
 }
 
 
@@ -123,6 +144,10 @@ p{
     cursor: pointer;
     border-radius: 5px;
 }
+
+#test{
+    
+}
 @media screen and (max-width: 768px){
     *{
    padding: 0;
@@ -135,16 +160,16 @@ p{
 
 header{
     height: 30px;
-    width:100%;
+    width:30%;
 
-    margin: 50px;
-    margin-left: 170px;
+    margin-left: 90px;
+    
 
     
 }
 html,body{
     height: 60%;
-    width: 100%;
+    width: 30%;
     background: #d7ecfd;
     }
 
@@ -157,17 +182,24 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 15px;
+    margin: 4px 10px;
     cursor: pointer;
     border-radius: 5px;
 }
 #hesab{
 
-    width: 187px;
+    width: 200px;
+}
+
+#toxum{
+    width: 200px;
+}
+#xidmet{
+    width: 200px;
 }
 #body{
 
-    margin-left: 100px;
+    margin-left: 30px;
 
 
 }
@@ -175,7 +207,7 @@ html,body{
 
 h2{
     font-family: 'Lobster', sans-serif;
-    font-size: 250%;
+    font-size: 200%;
 
 
 
@@ -231,3 +263,4 @@ p{
     border:2px solid black;
 
 }
+   
