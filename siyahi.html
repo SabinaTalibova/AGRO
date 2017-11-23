@@ -15,7 +15,11 @@
 
 <script>
 
-$.getJSON("https://sc.e-gov.az/file/476", function( data ) {
+var url='https://sc.e-gov.az/file/476';
+    var proxy = 'https://cors-anywhere.herokuapp.com/';
+    var final=proxy+url;
+
+$.getJSON(final, function( data ) {
     
 
  
