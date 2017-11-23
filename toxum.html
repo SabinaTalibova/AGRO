@@ -13,7 +13,12 @@
 
 <script>
 
-$.getJSON("https://sc.e-gov.az/file/484", function( data ) {
+    var url='https://sc.e-gov.az/file/484';
+    var proxy = 'https://cors-anywhere.herokuapp.com/';
+    var final=proxy+url;
+
+$.getJSON(final, function( data ) {
+
     
 
  
